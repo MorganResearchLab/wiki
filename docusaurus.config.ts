@@ -17,6 +17,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'morganresearchlab', // Usually your GitHub org/user name.
   projectName: 'wiki', // Usually your repo name.
+  deploymentBranch: 'gh-pages', // The branch your GitHub pages site is deployed from
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
