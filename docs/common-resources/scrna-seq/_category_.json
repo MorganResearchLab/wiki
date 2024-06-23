@@ -1,0 +1,8 @@
+{
+    "label": "scRNA-seq",
+    "position": 2,
+    "link": {
+      "type": "generated-index",
+      "description": "All things scRNA-seq",
+    }
+  }
