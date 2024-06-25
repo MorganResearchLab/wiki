@@ -1,0 +1,1 @@
+(self.webpackChunkmorganlab_wiki=self.webpackChunkmorganlab_wiki||[]).push([[577],{549:(a,k,s)=>{"use strict";s.d(k,{A:()=>i});var e=s(8291);const i=e},5741:()=>{}}]);
