@@ -1,6 +1,6 @@
 ---
-title: Managing Files and Directories
-label: Managing Files and Directories
+title: Managing files and directories
+label: Managing files and directories
 sidebar_position: 4
 ---
 

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmorganlab_wiki=self.webpackChunkmorganlab_wiki||[]).push([[224],{1976:(e,a,i)=>{i.r(a),i.d(a,{default:()=>r});i(6540);var s=i(781),n=i(4848);function r(){return(0,n.jsx)(s.A,{children:(0,n.jsxs)("div",{children:[(0,n.jsx)("h1",{children:"My React Page"}),(0,n.jsx)("p",{children:"This is a React page"})]})})}}}]);
