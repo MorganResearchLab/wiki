@@ -92,7 +92,7 @@ six==1.16.0
 tzdata==2024.1
 ```
 
-### Deactivating packages
+### Deactivating environment
 Once you're done with everything or when you want to switch to another environment you can use `deactivate` command and it will deactivate the current environment
 
 ### More resources
@@ -160,7 +160,7 @@ To uninstall a package
 ### Saving installed packages version for reproducibility
 You can save the installed packages in your environment using `conda env export -n my_env -f my_env.yaml` for which you can then use the `my_env.yaml` to install similar packages and version on a new environment
 
-### Deactivating packages
+### Deactivating environment
 Once you're done with everything or when you want to switch to another environment you can use `mamba deactivate` command and it will deactivate the current environment
 
 ### More resources

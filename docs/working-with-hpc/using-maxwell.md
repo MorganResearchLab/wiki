@@ -41,16 +41,22 @@ Terminal is powerful but sometimes you just want to prototype things faster and 
 1. Download [VS Code](https://code.visualstudio.com/download) (Don't confuse it with Microsoft's other product called Visual Studio) 
 2. Install it (of course)
 3. Open it and click the Extension icon on the left side pane
-4. Search for the Remote - SSH extension and install it
+![Extension search bar](img/04_01.png)
+4. Search for Remote Development extension pack and install it, this will install all of the required extensions for SSH VS Code remote development
+![Remote development extension](img/04_02.png)
 5. Once you have it installed you will have the Remote Explorer option under the Extension icon, click it
+![Remote development icon](img/04_03.png)
 6. Hover over SSH and Click the New Remote (`+`) button
-7. Type the ssh login, press `enter`
+![SSH add new instance](img/04_04.png)
+7. Type the ssh login, press `enter` (Change `r04mr23` with your id, because it's mine)
     ```
     ssh r04mr23@maxlogin1.abdn.ac.uk
     ```
 8. It will ask you what kind of operating system, select `Linux`
 9. Now when you click the Explorer icon on the left side pane (or `⇧⌘E`), you can select which directory you want to open
+![Explorer icon](img/04_05.png)
 10. `⌃` + `\`` will open the terminal for you
+![Terminal](img/04_06.png)
 
 Happy exploring and becoming more productive. More on VS Code and the Remote Explorer extension
 - [Microsoft's Visual Studio Code Basics](https://code.visualstudio.com/docs/introvideos/basics)
