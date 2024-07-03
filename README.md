@@ -6,7 +6,7 @@ Contributing is very easy even when you have limited programming knowledge!
     ```bash
     git clone https://github.com/MorganResearchLab/wiki.git
     ```
-2. All of the posts are located in the `docs` folder, creating new folder inside of it will create a new category in the sidebar. Creating an `.md` or React component (`.jsx`) will create a new post. More on [Docusaurus guides](https://docusaurus.io/docs/category/guides)
+2. All of the posts are located in the `docs` folder, creating new folder inside of it will create a new category in the sidebar. Creating a markdown file (`.md`, `.mdx`) or React component (`.jsx`) will create a new post. More on [Docusaurus guides](https://docusaurus.io/docs/category/guides)
 3. To preview how the wiki looks like after you add something to the `docs` folder. You have to make sure you have Node.js and Node Package Manager installed, otherwise you can skip step 3 and 4
     ```
     npm run dev
