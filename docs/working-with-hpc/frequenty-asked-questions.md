@@ -48,3 +48,8 @@ $ beegfs-ctl --getquota --cfgFile=/etc/beegfs/beegfs-client-uoa-scratch.conf --u
 ```
 
 Again change r04mr23 with your Maxwell username, `size` `used` is your usage, `size` `hard` is the non-official storage limit, try to keep it below `hard` as suggested by the Maxwell team. `chunk files` is the file number limit.
+
+## How do I check how long did it take for my slurm job to finish?
+```
+sacct --format=JobID,JobName,State,Elapsed -j <JOB_ID>
+```
