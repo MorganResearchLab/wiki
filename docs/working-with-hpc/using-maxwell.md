@@ -36,6 +36,10 @@ If you're using HPC/Terminal/Command line for the first time, here are some guid
 There are probably more tutorials that better suit your liking if you Google and look for `unix tutorial site:github.io`
 
 ## VS Code Remote SSH Extension
+> "Tools amplify your talent. The better your tools, and the better you know how to use them, the more productive you can be. Start with a basic set of generally applicable tools. As you gain experience, and as you come across special requirements, you’ll add to this basic set. Like the craftsman, expect to add to your toolbox regularly. Always be on the lookout for better ways of doing things. If you come across a situation where you feel your current tools can’t cut it, make a note to look for something different or more powerful that would have helped. Let need drive your acquisitions."
+>
+> — Andy Hunt, The Pragmatic Programmer
+
 Terminal is powerful but sometimes you just want to prototype things faster and more efficient (which honestly if you're some sort of UNIX gods you'd probably be able to do it but I'm not) in more user-friendly environment, not to mention the painful process of transferring files using scp and sftps, well technically you can use FileZilla or PUTTY for it but why bother switching back and forth between two softwares when you can have all them in one. VS Code got your back, it offers a graphical user interface (GUI) that lets you edit code, run a terminal, and leverage thousands of extensions to streamline development. To use VS code;
 
 1. Download [VS Code](https://code.visualstudio.com/download) (Don't confuse it with Microsoft's other product called Visual Studio) 

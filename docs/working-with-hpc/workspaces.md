@@ -1,7 +1,7 @@
 ---
 title: Workspaces
 label: Workspaces
-sidebar_position: 95
+sidebar_position: 12
 ---
 
 ![Haries' directory](img/06_01.png)
