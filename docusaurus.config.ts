@@ -49,7 +49,16 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-  plugins: [require.resolve('docusaurus-lunr-search')],
+  plugins: [
+    require.resolve('docusaurus-lunr-search'),
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-25WRJDG2BM',
+        anonymizeIP: true,
+      },
+    ],
+  ],
   themeConfig: {
     // Replace with your project's social card
     image: 'img/logo.png',
