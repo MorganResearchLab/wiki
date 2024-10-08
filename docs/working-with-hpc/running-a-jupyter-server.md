@@ -45,7 +45,19 @@ Once you submit the job, the log will appear (in my case `jupyter-notebook.log`)
 
 Copy the url, the one that doesn't start with the `http://127.0.0.1......` (in my case it's `http://vhmem002.int.maxwell.abdn.ac.uk:8888/tree?token=fac698f887a93963b6b7f860158e2e83ce5f03b4281978e6`)
 
+![Select Kernel](img/03_05.png)
+
 Go back to your Jupyter notebook, click `Select Kernel` and select `Existing Jupyter Server...`, paste the url, press enter and when prompted with environment selection, select your environment (There is only one of it).
+
+## Running R code on Jupyter Notebook
+To run R code on Jupyter Notebook you need to have the following library installed in the environment that you're using
+```
+mamba install r-irkernel r-languageserver
+```
+
+If you have them installed, you can follow the same steps you did above but now instead of `Python 3` you need to select `R` when selecting the kernel
+
+![Select R](img/03_04.png)
 
 ## More resources
 - [Visual Studio Code's Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
