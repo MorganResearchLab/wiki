@@ -22,4 +22,4 @@ Contributing is very easy even when you have limited programming knowledge!
     git commit -m "<INSERT_YOUR_MESSAGE_HERE>"
     git push
     ```
-1. Wait the GitHub action to finish and it's live now on [MorganLab Wiki](https://morganresearchlab.github.io/Wiki/) thanks for contributing!
+1. Wait the GitHub action to finish and it's live now on [MorganLab Wiki](https://morganresearchlab.github.io/wiki/) thanks for contributing!
