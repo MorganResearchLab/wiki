@@ -55,3 +55,10 @@ It can be annoying to have to reenter your Maxwell password every time you're tr
     ```
 1. Now you can log in to VS Code without password!
 
+## Automatically load slurm on every log in
+Are you annoyed by the `bash: sbatch: command not found` error message every time you want to submit a job because you forget to do `module load slurm`? Adding it to your ~/.bashrc file will automatically load slurm
+```bash
+[r04mr23@maxlogin1(maxwell) ~]$ vim ~/.bashrc
+
+# Press `shift + g + $` to go to the end of the line, press `i` then `enter` and type `module load slurm`
+```
