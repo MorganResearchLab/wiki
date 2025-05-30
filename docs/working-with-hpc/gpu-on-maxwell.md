@@ -45,4 +45,4 @@ source ~/.bash_profile
 source ~/.bashrc
 ```
 
-`--gres` (Generic Resource) parameter specifies the type and the number of GPUs required, so in this case I will be using NVIDIA A100 GPU and the number of GPUs that I will be using is 1, for the types and number of GPUs that you can use, please refer to the `GPU Code` and `Number of GPUs` column on the table respectively. For the `--partition` please refer to the `Partition` column 
+`--gres` (Generic Resource) parameter specifies the type and the number of GPUs required, so in this case I will be using NVIDIA A100 GPU and the number of GPUs that I will be using is 1, for the types and number of GPUs that you can use, please refer to the `GPU Code` and `Number of GPUs` column on the table respectively. For the `--partition` please refer to the `Partition` column.
